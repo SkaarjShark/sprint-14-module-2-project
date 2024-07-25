@@ -1,0 +1,17 @@
+GET http://localhost:9000/api/cars
+
+###
+
+GET http://localhost:9000/api/cars/90
+
+###
+
+POST http://localhost:9000/api/cars
+Content-Type: application/json
+
+{
+    "model": "something",
+    "make": "something",
+    "vin": "1YVHZ8CH2A5M03324",
+    "mileage": 15000
+}
